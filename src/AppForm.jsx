@@ -25,9 +25,9 @@ export default function AppForm() {
         // name: 속성에 해당하는 값 사용
         // State: { name: xxx, email: xxxx}
         <form onSubmit={handleSubmit}>
-            <label htmlFor="name">이름: </label>
+            <label htmlFor="name">보굥이는 보굥보굥: </label>
             <input type="text" id='name' name='name3' value={form.name} onChange = {handleChange}/>
-            <label htmlFor="email">이메일: </label>
+            <label htmlFor="email">웅이는 웅웅이이: </label>
             <input type="email" id='email' name='email3' value={form.email} onChange={handleChange}/>
             <button>Submit</button>
         </form>
